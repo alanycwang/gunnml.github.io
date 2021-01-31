@@ -66,3 +66,50 @@ ul.navbarLinks li a:hover {
 li.navbarDivider {
     color: #cfcfcf;
 }
+
+/* -------------- Styles for Morphing Text and Below -------------- */
+
+div.mainContent {
+    margin-top: 100px;
+}
+
+section.homePageSection {
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 1em;
+}
+
+section.titlePageSection {
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+section.titlePageSection article {
+    justify-content: center;
+    display: flex;
+}
+
+span.decodeText {
+    color: white;
+    font-family: 'Whitney', sans-serif;
+    font-weight: bold;
+    font-size: 110px;
+}
+
+.code { 
+    color: white;
+    font-family: 'Whitney', sans-serif;
+    font-weight: bold;
+    font-size: 110px;
+}
