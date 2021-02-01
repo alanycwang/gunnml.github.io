@@ -6,8 +6,13 @@ html, head, body {
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: WhitneyBold;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: WhitneyBold;
+    src: url(../fonts/whitneybold.woff);
 }
 
 a.navlogo {
@@ -39,7 +44,7 @@ h1.navMainTitle {
     font-size: 32px;
     font-weight: 550;
     margin: 0px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px;
 }
 
 nav.navbarItems li a {
@@ -100,16 +105,16 @@ section.titlePageSection article {
     display: flex;
 }
 
-span.decodeText {
+span.titleText {
     color: white;
-    font-family: 'Whitney', sans-serif;
+    font-family: WhitneyBold;
     font-weight: bold;
-    font-size: 110px;
+    font-size: 60px;
 }
 
 .code { 
     color: white;
     font-family: 'Whitney', sans-serif;
     font-weight: bold;
-    font-size: 110px;
+    font-size: 60px;
 }

@@ -53,5 +53,5 @@ $( document ).ready(function() {
         };
     }(jQuery));
     
-    $("#decodingText").decodeEffect();
+    //$("#decodingText").decodeEffect();
 });
