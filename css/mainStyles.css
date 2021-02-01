@@ -140,13 +140,13 @@ p.homePageSubtitle {
     padding-bottom: 10px;
 }
 
-button.homePageBtns {
+a.homePageBtns {
     display:inline-block;
-    padding:1em 2em;
+    padding:0.5em 2em;
     background-color: #1a73e8;
     border:1px solid #1a73e8;
     outline: none;
-    margin:0em 10px 0px 10px;
+    margin:0em 6px 0px 6px;
     border-radius:0.5em;
     box-sizing: border-box;
     text-decoration:none;
@@ -158,7 +158,7 @@ button.homePageBtns {
     cursor: pointer;
 }
 
-button.homePageBtns:hover {
+a.homePageBtns:hover {
     border-color:rgb(38, 64, 185);
     box-shadow: 0 0 0 3px #1a73e8;
 }
