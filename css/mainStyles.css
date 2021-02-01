@@ -88,6 +88,7 @@ div.mainContent {
 section.homePageSection {
     margin: 30px auto;
     padding: 0 20px;
+    padding-top: 15vh;
     width: 100%; 
     display: grid;
 
@@ -162,4 +163,10 @@ a.homePageBtns {
 a.homePageBtns:hover {
     border-color:rgb(38, 64, 185);
     box-shadow: 0 0 0 3px #1a73e8;
+}
+
+div.waveSection {
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
 }
