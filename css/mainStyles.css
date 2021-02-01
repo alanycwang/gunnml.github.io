@@ -3,7 +3,7 @@ html, head, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color:rgb(38, 64, 185);
+    background-color: white;
 }
 
 * {
@@ -33,7 +33,7 @@ header.siteNavHeader {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10%;
-    background-color:rgb(38, 64, 185);
+    background-color:white;
 
     /* Fixes navbar at the top */
     overflow: hidden;
@@ -48,7 +48,7 @@ header.siteNavScrolled {
 }
 
 h1.navMainTitle {
-    color: white;
+    color: rgb(38, 64, 185);
     text-align: center;
     font-size: 32px;
     font-weight: 550;
@@ -60,7 +60,7 @@ nav.navbarItems li a {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
-    color:#cfcfcf;
+    color:rgb(38, 64, 185);
     transition: all 0.2s ease 0s;
 }
 
@@ -74,11 +74,11 @@ ul.navbarLinks li {
 }
 
 ul.navbarLinks li a:hover {
-    color:white;
+    color: gray;
 }
 
 li.navbarDivider {
-    color: #cfcfcf;
+    color:rgb(38, 64, 185);
 }
 
 div.mainContent {
@@ -119,21 +119,21 @@ div.logoGML {
     align-items: center;
     padding-left: 20px;
 
-    color: white;
+    color: rgb(38, 64, 185);
     font-weight: 500;
     font-size: 50px;
     font-family: 'Fredoka One', cursive;
 }
 
 span.titleText {
-    color: white;
+    color: rgb(38, 64, 185);
     font-family: WhitneyBold;
     font-weight: bold;
     font-size: 60px;
 }
 
 p.homePageSubtitle {
-    color: #cfcfcf;
+    color:#8f8f8f;
     font-size: 18px;
     font-family: arial;
     font-weight: 500;
@@ -161,7 +161,7 @@ a.homePageBtns {
 }
 
 a.homePageBtns:hover {
-    border-color:rgb(38, 64, 185);
+    border-color: white;
     box-shadow: 0 0 0 3px #1a73e8;
 }
 
