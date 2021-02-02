@@ -16,6 +16,11 @@ html, head, body {
     src: url(../fonts/whitneybold.woff);
 }
 
+@font-face {
+    font-family: WhitneyMedium;
+    src: url(../fonts/whitneymedium.woff);
+}
+
 /* Ignore this style - don't delete
 .code { 
     color: white;

@@ -1,24 +1,46 @@
+@font-face {
+    font-family: WhitneyMedium;
+    src: url(../fonts/whitneymedium.woff);
+}
+
 section.footerSection {
     background-color:black;
     color: white;
     
     margin: auto;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%; 
     display: grid;
 
     /*Define our columns */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
 
     top: 100%;
     position: absolute;
 }
 
-span.footerSectionTitles {
+section.footerSection a {
+    display: inline-block;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #b0b0b0;
+    font-family: WhitneyMedium;
+    font-size: 15px;
+}
+
+p.footerSectionTitles {
+    margin: 0;
+    padding: 0;
     color: #1a73e8;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+div.footerDivider {
+    width: 100%;
+    border-top: 1px solid white;
+    color: white;
 }
