@@ -1,0 +1,24 @@
+section.footerSection {
+    background-color:black;
+    color: white;
+    
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+    top: 100%;
+    position: absolute;
+}
+
+span.footerSectionTitles {
+    color: #1a73e8;
+    padding-bottom: 20px;
+}

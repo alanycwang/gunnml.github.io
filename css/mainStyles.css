@@ -44,7 +44,7 @@ header.siteNavHeader {
 }
 
 header.siteNavScrolled {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(38, 64, 185, 0.5);
 }
 
 h1.navMainTitle {
@@ -165,8 +165,8 @@ a.homePageBtns:hover {
     box-shadow: 0 0 0 3px #1a73e8;
 }
 
-div.waveSection {
-    width: 100vw;
+svg.waveSection {
+    width: 100%;
     bottom: 0;
     position: absolute;
 }
