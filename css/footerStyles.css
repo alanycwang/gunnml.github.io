@@ -3,6 +3,24 @@
     src: url(../fonts/whitneymedium.woff);
 }
 
+section.mainFooterSection {
+    background-color:black;
+    color: white;
+    
+    margin: auto;
+    padding: 0;
+    padding-bottom: 50px;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+    top: 100%;
+    position: absolute;
+}
+
 section.footerSection {
     background-color:black;
     color: white;
@@ -11,16 +29,13 @@ section.footerSection {
     padding-left: 10%;
     padding-right: 5%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     width: 100%; 
     display: grid;
 
     /*Define our columns */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-
-    top: 100%;
-    position: absolute;
 }
 
 section.footerSection a {
@@ -39,8 +54,13 @@ p.footerSectionTitles {
     padding-bottom: 15px;
 }
 
-div.footerDivider {
-    width: 100%;
-    border-top: 1px solid white;
+article.footerDivider {
+    display: flex;
+    justify-content: center;
+}
+
+article.footerDivider div {
+    width: 80%;
+    border-top: 0.5px solid gray;
     color: white;
 }
