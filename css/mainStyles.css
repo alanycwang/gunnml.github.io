@@ -44,7 +44,7 @@ header.siteNavHeader {
 }
 
 header.siteNavScrolled {
-    background: rgb(38, 64, 185, 0.5);
+    background: rgb(38, 64, 185, 0.8);
 }
 
 h1.navMainTitle {
@@ -74,7 +74,11 @@ ul.navbarLinks li {
 }
 
 ul.navbarLinks li a:hover {
-    color: gray;
+    color: black;
+}
+
+ul.scrolledHover li a:hover {
+    color: white;
 }
 
 li.navbarDivider {
