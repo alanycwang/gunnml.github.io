@@ -21,13 +21,13 @@ html, head, body {
     src: url(../fonts/whitneymedium.woff);
 }
 
-/* Ignore this style - don't delete
 .code { 
-    color: white;
+    color: rgb(38, 64, 185);
+    text-align: center;
     font-size: 32px;
     font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
 }
-*/
 
 a.navlogo {
     text-decoration: none;
@@ -57,8 +57,10 @@ h1.navMainTitle {
     text-align: center;
     font-size: 32px;
     font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
+    display:inline-block; 
 }
 
 nav.navbarItems li a {
@@ -98,7 +100,7 @@ section.homePageSection {
     display: grid;
 
     /*Define our columns */
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4.5fr 1fr;
     grid-gap: 1em;
 }
 
