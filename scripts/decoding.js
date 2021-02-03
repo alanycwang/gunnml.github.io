@@ -1,8 +1,8 @@
 $( document ).ready(function() {
     jQuery.fn.decodeEffect = (function ($) {
         var defaultOptions = {
-            duration:      3000,
-            stepsPerGlyph: 20,
+            duration:      1500,
+            stepsPerGlyph: 4,
             codeGlyphs:    "ABCDEFGHIJKLMNOPQRSTUWVXYZ1234567890",
             className:     "code"
         };
