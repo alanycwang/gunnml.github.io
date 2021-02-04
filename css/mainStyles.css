@@ -185,6 +185,7 @@ svg.waveSection {
 /* ---------------- Officers Page ---------------- */
 
 section.mainOfficerSection {
+    background-color:#f5f5f5;
     margin: 30px auto;
     padding: 20px 40px;
     width: 100%; 
@@ -202,7 +203,7 @@ article.officerTitleArticle {
 }
 
 span.officersTitleText {
-    color:rgb(38, 64, 185);;
+    color: black;
     font-family: WhitneyBold;
     font-weight: bold;
     font-size: 40px;
@@ -216,25 +217,60 @@ span.officersTitleSubText {
     font-size: 20px;
 }
 
-article.officersTitleSubArticle {
-    border-bottom: 1px solid rgb(38, 64, 185);;
-}
-
 section.userProfilesSection {
     margin: 30px auto;
-    padding: 20px 40px;
+    padding: 20px 80px;
     width: 100%; 
     display: grid;
+    justify-content: center;
 
     /*Define our columns */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 80px;
 }
 
 section.userProfilesSection article {
-    background-color: #e3e3e3;
     border-radius: 10px;
     font-family: WhitneyMedium;
+}
+
+section.profileCardSection {
+    background-color:white;
+
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    width: 100%; 
+    display: grid;
+    justify-content: center;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+article.centeredArticle {
+    display: flex;
+    justify-content: center;
+}
+
+p.pfpName {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(38, 64, 185);;
+    font-family: WhitneyMedium;
+}
+
+img.pfp {
+    width: 210px;
+    height: auto;
+    padding: 10px;
+}
+
+i.userLinks {
+    color: rgb(38, 64, 185);
 }
 
 /* ---------------- Events Page ---------------- */
