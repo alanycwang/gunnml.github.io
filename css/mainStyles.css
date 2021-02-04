@@ -184,6 +184,40 @@ svg.waveSection {
 
 /* ---------------- Officers Page ---------------- */
 
+section.mainOfficerSection {
+    margin: 30px auto;
+    padding: 20px 40px;
+    width: 100%; 
+    display: grid;
 
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+article.officerTitleArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.officersTitleText {
+    color:black;
+    font-family: WhitneyBold;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+span.officersTitleSubText {
+    color: #1a73e8;
+    font-family: WhitneyBold;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+article.officersTitleSubArticle {
+    border-bottom: 1px solid black;
+}
 
 /* ---------------- Events Page ---------------- */
