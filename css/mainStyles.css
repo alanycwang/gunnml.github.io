@@ -202,22 +202,39 @@ article.officerTitleArticle {
 }
 
 span.officersTitleText {
-    color:black;
+    color:rgb(38, 64, 185);;
     font-family: WhitneyBold;
     font-weight: bold;
     font-size: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 span.officersTitleSubText {
-    color: #1a73e8;
+    color: black;
     font-family: WhitneyBold;
     font-weight: bold;
     font-size: 20px;
 }
 
 article.officersTitleSubArticle {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(38, 64, 185);;
+}
+
+section.userProfilesSection {
+    margin: 30px auto;
+    padding: 20px 40px;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+section.userProfilesSection article {
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    font-family: WhitneyMedium;
 }
 
 /* ---------------- Events Page ---------------- */
