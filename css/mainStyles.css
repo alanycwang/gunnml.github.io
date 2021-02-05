@@ -252,15 +252,17 @@ section.profileCardSection {
 article.centeredArticle {
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 p.pfpName {
+    display: block;
     margin: 0;
     margin-top: 25px;
     padding: 0;
     font-size: 20px;
     color: rgb(38, 64, 185);;
-    font-family: WhitneyMedium;
+    font-family: WhitneyBold;
 }
 
 img.pfp {
@@ -271,6 +273,17 @@ img.pfp {
 
 i.userLinks {
     color: rgb(38, 64, 185);
+    padding-bottom: 5px;
+}
+
+p.role {
+    display: block;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0;
+    color: gray;
+    font-size: 17px;
+    font-family: WhitneyMedium;
 }
 
 /* ---------------- Events Page ---------------- */
