@@ -185,7 +185,7 @@ svg.waveSection {
 /* ---------------- Officers Page ---------------- */
 
 section.mainOfficerSection {
-    background-color:#f5f5f5;
+    background-color:white;
     margin: 30px auto;
     padding: 20px 40px;
     width: 100%; 
@@ -235,7 +235,7 @@ section.userProfilesSection article {
 }
 
 section.profileCardSection {
-    background-color:white;
+    background-color:rgb(38, 64, 185);
 
     border-radius: 10px;
     margin: 0px auto;
@@ -261,7 +261,7 @@ p.pfpName {
     margin-top: 25px;
     padding: 0;
     font-size: 20px;
-    color: rgb(38, 64, 185);;
+    color: white;
     font-family: WhitneyBold;
 }
 
@@ -272,8 +272,14 @@ img.pfp {
 }
 
 i.userLinks {
-    color: rgb(38, 64, 185);
+    font-size: 1.8em;
+    color:white;
     padding-bottom: 5px;
+    transition: 0.2s;
+}
+
+i.userLinks:hover {
+    color: #0080ff;
 }
 
 p.role {
@@ -281,7 +287,7 @@ p.role {
     margin: 0px;
     margin-top: 5px;
     padding: 0;
-    color: gray;
+    color: #0080ff;
     font-size: 17px;
     font-family: WhitneyMedium;
 }
