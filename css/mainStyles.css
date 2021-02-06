@@ -300,3 +300,14 @@ div.noEventsYet {
     left: 50%;
     transform: translate(-50%,-40%);
 }
+
+h1.noEventsTitle {
+    font-size: 45px;
+    color: rgb(59, 96, 255);
+    margin-bottom: 0px;
+}
+
+p.noEventsSubtitle {
+    margin: 0px;
+    font-family: WhitneyMedium;
+}
