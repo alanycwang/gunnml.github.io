@@ -46,6 +46,8 @@ header.siteNavHeader {
     top: 0;
     width: 100%;
     transition: 0.8s;
+
+    z-index: 500;
 }
 
 header.siteNavScrolled {
