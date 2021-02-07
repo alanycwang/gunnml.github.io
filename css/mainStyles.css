@@ -182,7 +182,99 @@ svg.waveSection {
 
 /* ---------------- About Page ---------------- */
 
+a.navlogoAbout {
+    text-decoration: none;
+}
 
+header.siteNavHeaderAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: rgb(53, 83, 212);
+
+    /* Fixes navbar at the top */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+
+    z-index: 500;
+}
+
+header.siteNavScrolledAbout {
+    background: rgb(0, 0, 0, 0.5);
+}
+
+h1.navMainTitleAbout {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    display:inline-block; 
+}
+
+nav.navbarItemsAbout li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color:white;
+    transition: all 0.2s ease 0s;
+}
+
+ul.navbarLinksAbout {
+    list-style: none;
+}
+
+ul.navbarLinksAbout li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul.navbarLinksAbout li a:hover {
+    color: black;
+}
+
+li.navbarDividerAbout {
+    color:white;
+}
+
+div.aboutUsBackgroundDiv {
+    background-color: rgb(53, 83, 212);
+    min-height: 350px;
+    display: flex;
+    top: 0;
+}
+
+section.aboutUsBackgroundSection {
+    margin: 0px auto;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    padding: 0px 10%;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+span.aboutUsTitle {
+    font-family: WhitneyBold;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+span.aboutUsSubTitle {
+    font-family: WhitneyMedium;
+    color: white;
+    margin: 0;
+}
 
 /* ---------------- Officers Page ---------------- */
 

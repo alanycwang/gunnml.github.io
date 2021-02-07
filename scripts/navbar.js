@@ -3,7 +3,9 @@ $(window).scroll(function() {
 
     if (scroll >= 10) {
         $(".siteNavHeader").addClass("siteNavScrolled");
+        $(".siteNavHeaderAbout").addClass("siteNavScrolledAbout");
     } else {
         $(".siteNavHeader").removeClass("siteNavScrolled");
+        $(".siteNavHeaderAbout").removeClass("siteNavScrolledAbout");
     }
 });
