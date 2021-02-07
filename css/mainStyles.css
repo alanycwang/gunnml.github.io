@@ -329,7 +329,7 @@ section.userProfilesSection article {
 }
 
 section.profileCardSection {
-    background-color:rgb(38, 64, 185);
+    background-color:rgb(53, 83, 212);
 
     border-radius: 10px;
     margin: 0px auto;
@@ -373,7 +373,7 @@ i.userLinks {
 }
 
 i.userLinks:hover {
-    color: #0080ff;
+    color:#a8a8a8;
 }
 
 p.role {
@@ -381,7 +381,7 @@ p.role {
     margin: 0px;
     margin-top: 5px;
     padding: 0;
-    color: #0080ff;
+    color: #bababa;
     font-size: 17px;
     font-family: WhitneyMedium;
 }
