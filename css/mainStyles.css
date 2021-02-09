@@ -46,6 +46,8 @@ header.siteNavHeader {
     top: 0;
     width: 100%;
     transition: 0.8s;
+
+    z-index: 500;
 }
 
 header.siteNavScrolled {
@@ -180,12 +182,104 @@ svg.waveSection {
 
 /* ---------------- About Page ---------------- */
 
+a.navlogoAbout {
+    text-decoration: none;
+}
 
+header.siteNavHeaderAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: rgb(53, 83, 212);
+
+    /* Fixes navbar at the top */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+
+    z-index: 500;
+}
+
+header.siteNavScrolledAbout {
+    background: rgb(0, 0, 0, 0.5);
+}
+
+h1.navMainTitleAbout {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    display:inline-block; 
+}
+
+nav.navbarItemsAbout li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color:white;
+    transition: all 0.2s ease 0s;
+}
+
+ul.navbarLinksAbout {
+    list-style: none;
+}
+
+ul.navbarLinksAbout li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul.navbarLinksAbout li a:hover {
+    color: black;
+}
+
+li.navbarDividerAbout {
+    color:white;
+}
+
+div.aboutUsBackgroundDiv {
+    background-color: rgb(53, 83, 212);
+    min-height: 350px;
+    display: flex;
+    top: 0;
+}
+
+section.aboutUsBackgroundSection {
+    margin: 0px auto;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    padding: 0px 10%;
+    width: 100%; 
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+span.aboutUsTitle {
+    font-family: WhitneyBold;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+span.aboutUsSubTitle {
+    font-family: WhitneyMedium;
+    color: white;
+    margin: 0;
+}
 
 /* ---------------- Officers Page ---------------- */
 
 section.mainOfficerSection {
-    background-color:#f5f5f5;
+    background-color:white;
     margin: 30px auto;
     padding: 20px 40px;
     width: 100%; 
@@ -235,7 +329,7 @@ section.userProfilesSection article {
 }
 
 section.profileCardSection {
-    background-color:white;
+    background-color:rgb(53, 83, 212);
 
     border-radius: 10px;
     margin: 0px auto;
@@ -252,15 +346,17 @@ section.profileCardSection {
 article.centeredArticle {
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 p.pfpName {
+    display: block;
     margin: 0;
     margin-top: 25px;
     padding: 0;
     font-size: 20px;
-    color: rgb(38, 64, 185);;
-    font-family: WhitneyMedium;
+    color: white;
+    font-family: WhitneyBold;
 }
 
 img.pfp {
@@ -270,7 +366,42 @@ img.pfp {
 }
 
 i.userLinks {
-    color: rgb(38, 64, 185);
+    font-size: 1.8em;
+    color:white;
+    padding-bottom: 5px;
+    transition: 0.2s;
+}
+
+i.userLinks:hover {
+    color:#a8a8a8;
+}
+
+p.role {
+    display: block;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0;
+    color: #bababa;
+    font-size: 17px;
+    font-family: WhitneyMedium;
 }
 
 /* ---------------- Events Page ---------------- */
+
+div.noEventsYet {
+    position: absolute;
+    top:  40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+h1.noEventsTitle {
+    font-size: 45px;
+    color: rgb(59, 96, 255);
+    margin-bottom: 0px;
+}
+
+p.noEventsSubtitle {
+    margin: 0px;
+    font-family: WhitneyMedium;
+}
